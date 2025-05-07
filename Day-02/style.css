@@ -131,6 +131,10 @@ nav {
   font-size: 1.8rem;
   text-transform: uppercase;
 }
+.active{
+  background-color: orange;
+  color: white;
+}
 .box:hover {
   background-color: orange;
   color: white;
@@ -377,7 +381,7 @@ nav {
     font-size: 2rem;
   }
   .main-left p {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   .btn {
     height: 30px;
@@ -399,7 +403,86 @@ nav {
     bottom: 0;
   }
   .cards {
+    height: 70vh;
+    flex-direction: column;
+    margin-top: 4rem;
+    position: static;
+    gap: 2rem;
+  }
+  .box{
+    height: 100%;
+    width: 50%;
+    font-size: 1.2rem;
+    gap: 2.5rem;
+  }
+  .about-us{
+    flex-direction: column;
+    margin-top: 4rem;
+  }
+  .about-left {
+    height: 50%;
+    width: 100%;
+    justify-content: flex-start;
+    gap: 10vw;
+  }
+  .about-left h2 {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+  }
+  .about-left p {
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
+  .btn-1 {
+    height: 2.8rem;
+    width: 10rem;
+    border-radius: 2px;
+  }
+  .about-right {
+    height: 50%;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .about-img {
+    height: 50%;
+    width: 80%;
+  }
+  .service{
+    height: 100vh;
+    flex-direction: column;
+  }
+  .service-left{
     display: none;
+  }
+  .service-right{
+    width: 100%;
+    gap: 5vw;
+    padding: 0 8vw 0 8vw;
+  }
+  .our-service{
+    height: 160vh;
+  }
+  .our-service h1{
+    font-size: 10vw;
+  }
+  .our-cards{
+    height: 120vh;
+    flex-direction: column;
+    gap: 8vw;
+  }
+  .items{
+    width: 70%;
+    gap: 4vw;
+  }
+  .items span i{
+    font-size: 3rem;
+  }
+  .items h3{
+    font-size: 1.5rem;
+  }
+  .items p{
+    font-size: 1rem;
   }
 }
 
